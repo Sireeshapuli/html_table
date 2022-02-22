@@ -1,7 +1,9 @@
 a {
-    text-decoration: none;
+    text-decoration: none; color: green;
 }
 p:nth-child(2n) {background-color: aqua;}
+h1 {
+    color: rgb(163, 22, 104); text-shadow: 2px 2px rgb(43, 204, 65);
+}
 
-h1 {color: blue;}
 caption {text-transform: capitalize;}
