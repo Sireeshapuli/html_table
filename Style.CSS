@@ -1,7 +1,0 @@
-a {
-    text-decoration: none;
-}
-p :nth-child(2n) {background-color: aqua;}
-
-h1 {color: blue;}
-caption {text-transform: capitalize;}
