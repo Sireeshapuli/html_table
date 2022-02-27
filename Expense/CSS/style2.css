@@ -1,0 +1,24 @@
+.txtbgcolor:focus {
+  background-color:darkgoldenrod ;
+}
+.fontcolor{
+  color: blueviolet;
+}
+.textshadow{
+  text-shadow: 2px 2px red;
+}
+#uname {
+  text-transform: uppercase;
+}
+#p1{
+  font-size: x-large 
+}
+#p1{
+  text-transform: capitalize;
+}
+#p1{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#p1{
+  font-size: 3vw;
+}
