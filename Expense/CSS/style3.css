@@ -25,7 +25,7 @@ body {
 .tabs_label {
     padding: 10px 19px;
     cursor: pointer;
-    background-color: rgb(196, 173, 218);
+    background-color: rgb(47, 189, 106);
     font-size: medium;
     font-family: sans-serif;
     border-bottom: #009578;
@@ -51,7 +51,7 @@ body {
 
 .tabs_radio:checked+.tabs_label {
     font: bold ;
-    color: red ;
+    color: rgb(25, 0, 255) ;
     border-bottom: 2px solid #009578;
     background-color: aquamarine;
     
@@ -69,7 +69,7 @@ fieldset{
     margin-top: 0.1px;
 }
 .tablink label:hover{
-    background-color: blue;
+    background-color: rgb(202, 240, 64);
 }
 p{
     color: rgb(53, 32, 80);
