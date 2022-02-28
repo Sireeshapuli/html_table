@@ -1,0 +1,71 @@
+.container{
+    padding: 3em;
+    width: 100vw;
+    height: 70vh;
+    font: 1em sans-serif;
+    font-size: large;
+    
+    
+   
+}
+#cell{
+        padding: 1em;
+        height: 500vh;
+        
+        
+        
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: auto;
+    gap: 1em;
+   
+}
+.grn{
+    background-color: rgb(159, 235, 159);
+    grid-column-start: 1;
+    grid-column-end: 4;
+    
+}
+.yel{
+    background-color: rgb(241, 241, 105);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;   
+}
+.red{
+    background-color: rgb(240, 86, 86);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+}
+.blu{
+    background-color: rgb(38, 161, 243);
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.orng{
+    background-color: rgba(250, 142, 41, 0.952);
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#cellbox > div{
+display: grid;    
+margin: 10px;
+background-color: white;
+text-align: center;
+height: 10%;
+width: 10%;
+padding: 10px;
+grid-template-columns: 1fr 1fr 1fr ;
+}
+
+
+
+
+
