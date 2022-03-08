@@ -5,11 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            text-align-last:center;
+            margin: 2em;
+            background-color: beige;
+            color: blue;
+        }
+        h1{
+            text-align: center;
+            text-decoration: underline;
+            text-transform: uppercase;
+            color: brown;
+            
+
+        }
+        button{
+            background-color:rgb(219, 194, 83)
+        }
+    </style>
 </head>
 <body>
     
-    <h1>Employee details & Wages</h1>
-    
+    <h1>Employee details & Salary</h1>
+
+    <form action="jsday3salary.html" method="GET"> 
+        
     <label for="empName">Employee name:</label>
     <input type="text" id="empName" required></input>
              <br><br>
@@ -38,7 +59,7 @@
          <p id="result"></p>
          
      
-
+</body>
 <script>
 
 function employee() {
@@ -50,21 +71,21 @@ function employee() {
             
             var salary
             if (desig =='manager'){
-             salary = hrsworked*90;
+             salary = hrsWorked*90;
             }
             else if (desig =='consultant'){
-                salary = hrsworked*70;
+                salary = hrsWorked*70;
             }
             else if (desig =='trainee'){
-                salary = hrsworked*45;
+                salary = hrsWorked*45;
 
             }
 
-             document.getElementById('result').innerHTML = empName+ "who is a" + "'" + desig +"'"+" will get "+"$"+salary;
-        
-        }
+            var output = empName+" who is a "+"'"+desig+"'"+" will get "+"$"+salary;
 
+            localStorage.setItem("totalSalary",output);
+         }
    </script>
 
-</body>
+
 </html>
